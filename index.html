@@ -115,13 +115,13 @@
             <div class="flex justify-between items-center h-16 md:h-20">
                 <a href="https://thestartupschool.in" onclick="event.preventDefault(); window.location.replace('https://thestartupschool.in');" class="flex-shrink-0 font-extrabold text-lg md:text-2xl tracking-tight flex items-center gap-2 md:gap-3 hover:opacity-90 transition-opacity">
                     <img src="logo.png" alt="TheStartupSchool" class="w-8 h-8 md:w-10 md:h-10 rounded-lg shadow-[0_0_15px_rgba(139,92,246,0.5)] object-cover" onerror="this.src='https://ui-avatars.com/api/?name=SS&background=8b5cf6&color=fff&rounded=true'">
-                    <span>The<span class="text-brand-gradient">Startup</span>School</span>
+                    <span>The<span class="text-brand-gradient">Startup</span><span class="hidden sm:inline">School</span></span>
                 </a>
                 <div>
                     <div class="relative group">
                         <div class="absolute -inset-0.5 brand-gradient rounded-lg blur opacity-30 group-hover:opacity-70 transition duration-300"></div>
-                        <a href="https://thestartupschool.in" onclick="event.preventDefault(); window.location.replace('https://thestartupschool.in');" class="relative inline-flex items-center justify-center px-4 py-2 md:px-5 md:py-2.5 text-xs md:text-sm font-semibold rounded-lg text-white bg-brand-bg border border-white/10 hover:bg-transparent transition-all gap-2">
-                            <i class="fa-solid fa-arrow-left"></i> Return Home
+                        <a href="https://thestartupschool.in" onclick="event.preventDefault(); window.location.replace('https://thestartupschool.in');" class="relative inline-flex items-center justify-center px-3 py-2 md:px-5 md:py-2.5 text-xs md:text-sm font-semibold rounded-lg text-white bg-brand-bg border border-white/10 hover:bg-transparent transition-all gap-1.5 md:gap-2">
+                            <i class="fa-solid fa-arrow-left"></i> <span class="hidden xs:inline sm:inline">Return</span> Home
                         </a>
                     </div>
                 </div>
@@ -130,44 +130,45 @@
     </nav>
 
     <!-- Main Success Content -->
-    <main class="flex-grow flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden min-h-[85vh]">
+    <main class="flex-grow flex items-center justify-center pt-20 sm:pt-24 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden min-h-[85vh]">
         <!-- Animated Background Orbs -->
         <div class="absolute top-1/4 -left-10 w-64 h-64 md:w-96 md:h-96 bg-brand-purple rounded-full mix-blend-screen filter blur-[90px] md:blur-[128px] opacity-30 animate-blob pointer-events-none"></div>
         <div class="absolute bottom-1/4 -right-10 w-64 h-64 md:w-96 md:h-96 bg-brand-fuchsia rounded-full mix-blend-screen filter blur-[90px] md:blur-[128px] opacity-30 animate-blob animation-delay-2000 pointer-events-none"></div>
         
         <div class="w-full max-w-2xl relative z-10 fade-in-section is-visible">
-            <div class="glass-card rounded-3xl p-8 md:p-12 border-t border-l border-r border-white/10 border-b-4 border-b-brand-whatsapp text-center shadow-[0_20px_50px_-15px_rgba(37,211,102,0.2)]">
+            <div class="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 border-t border-l border-r border-white/10 border-b-4 border-b-brand-whatsapp text-center shadow-[0_15px_40px_-15px_rgba(37,211,102,0.2)] md:shadow-[0_20px_50px_-15px_rgba(37,211,102,0.2)]">
                 
                 <!-- Success Icon -->
-                <div class="mx-auto w-20 h-20 md:w-24 md:h-24 bg-brand-whatsapp/10 rounded-full flex items-center justify-center mb-8 border border-brand-whatsapp/30 shadow-[0_0_30px_rgba(37,211,102,0.3)] animate-success-pop">
-                    <i class="fa-solid fa-check text-brand-whatsapp text-4xl md:text-5xl drop-shadow-lg"></i>
+                <div class="mx-auto w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 bg-brand-whatsapp/10 rounded-full flex items-center justify-center mb-6 sm:mb-8 border border-brand-whatsapp/30 shadow-[0_0_20px_rgba(37,211,102,0.3)] md:shadow-[0_0_30px_rgba(37,211,102,0.3)] animate-success-pop">
+                    <i class="fa-solid fa-check text-brand-whatsapp text-3xl sm:text-4xl md:text-5xl drop-shadow-lg"></i>
                 </div>
 
                 <!-- Text Content -->
-                <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Payment Successful!</h1>
+                <h1 class="text-2xl sm:text-3xl md:text-5xl font-extrabold text-white mb-3 sm:mb-4 tracking-tight">Payment Successful!</h1>
                 
-                <p class="text-base md:text-lg text-slate-300 leading-relaxed font-light mb-8 max-w-lg mx-auto">
+                <p class="text-sm sm:text-base md:text-lg text-slate-300 leading-relaxed font-light mb-6 sm:mb-8 max-w-lg mx-auto">
                     Your transaction has been completed successfully. A confirmation email with the details has been sent to your registered email address.
                 </p>
 
                 <!-- Divider -->
-                <div class="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent my-8"></div>
+                <div class="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent my-6 sm:my-8"></div>
 
                 <!-- Next Steps / WhatsApp CTA -->
-                <div class="bg-brand-bg/50 rounded-2xl p-6 md:p-8 border border-white/5 backdrop-blur-sm">
-                    <h3 class="text-lg md:text-xl font-bold text-white mb-2 flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-brand-whatsapp text-xl"></i> Next Step: Join the Inner Circle
+                <div class="bg-brand-bg/50 rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 border border-white/5 backdrop-blur-sm">
+                    <h3 class="text-base sm:text-lg md:text-xl font-bold text-white mb-2 flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-brand-whatsapp text-lg md:text-xl"></i> Next Step: Join the Inner Circle
                     </h3>
-                    <p class="text-sm md:text-base text-slate-400 font-light mb-6">
+                    <p class="text-xs sm:text-sm md:text-base text-slate-400 font-light mb-5 sm:mb-6">
                         Join our exclusive WhatsApp community instantly to avoid any hassle and get immediate access to cohort updates.
                     </p>
 
-                    <div class="relative group inline-block w-full sm:w-auto">
+                    <div class="relative group block w-full sm:w-auto sm:inline-block">
                         <!-- Glow effect matching WhatsApp green -->
                         <div class="absolute -inset-1 bg-brand-whatsapp rounded-xl blur-lg opacity-40 group-hover:opacity-70 transition duration-300"></div>
-                        <a href="https://chat.whatsapp.com/DsWZ7dyfz4C5bB4QydtNqH" target="_blank" class="relative flex sm:inline-flex items-center justify-center px-6 py-4 md:px-8 md:py-5 text-base md:text-lg font-bold rounded-xl text-white bg-[#25D366] hover:bg-[#20b858] border border-white/20 transition-all duration-300 transform group-hover:-translate-y-1 w-full shadow-lg">
-                            <i class="fa-brands fa-whatsapp text-xl mr-2"></i> Join WhatsApp Group Now
-                            <i class="fa-solid fa-arrow-right ml-3 text-white/70"></i>
+                        <a href="https://chat.whatsapp.com/DsWZ7dyfz4C5bB4QydtNqH" target="_blank" class="relative flex items-center justify-center px-4 py-3.5 sm:px-6 sm:py-4 md:px-8 md:py-5 text-sm sm:text-base md:text-lg font-bold rounded-xl text-white bg-[#25D366] hover:bg-[#20b858] border border-white/20 transition-all duration-300 transform group-hover:-translate-y-1 w-full shadow-lg text-center">
+                            <i class="fa-brands fa-whatsapp text-lg sm:text-xl mr-2 animate-pulse"></i> 
+                            <span>Join WhatsApp Group <span class="hidden xs:inline">Now</span></span>
+                            <i class="fa-solid fa-arrow-right ml-2 sm:ml-3 text-white/70 text-xs sm:text-sm"></i>
                         </a>
                     </div>
                 </div>
